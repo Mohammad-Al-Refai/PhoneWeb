@@ -1,0 +1,67 @@
+*{
+    outline: none;
+}
+.app-activity{
+    width:382px;
+    height: 680px;
+    background-color: rgb(231, 195, 96);
+     position: relative;
+   
+ 
+ }
+
+ .input-note{
+     background-color: blanchedalmond;
+     padding: 5px;
+     text-align: center;
+ }
+ .app-activity input{
+     font-size: 20px;
+     background-color: rgb(255, 255, 255);
+     border: 0px;
+ }
+ .app-activity button{
+     font-size: 20px;
+     background-color: burlywood;
+     color: rgb(248, 248, 248);
+     border: 0px;
+     height: 30px;
+     width: 30px;
+     text-align: center;
+     border-radius: 100px;
+ }
+ .app-activity button:hover{
+background-color: rgb(149, 231, 94);
+ }
+ .list-note{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
+    overflow-y: scroll;
+    
+     background-color: rgb(255, 222, 179);
+     width: 350px;
+     height: 620px;
+     margin-left: 15px;
+     margin-top: 10px;
+     border-radius: 20px;
+ }
+ .list-note::-webkit-scrollbar {
+    display: none;
+}
+ .item-note{
+     border-radius: 10px;
+     width: 310px;
+     margin: 10px;
+     background-color: cornsilk;
+     height: 20px;
+     padding: 10px;
+     float: left;
+ }
+ .item-note button{
+    height: 20px;
+    width: 20px;
+     background-color: crimson;
+     font-size: 30px;
+     float: right;
+     margin-bottom: 50px;
+ }
